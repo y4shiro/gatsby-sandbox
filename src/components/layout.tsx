@@ -6,7 +6,7 @@ const Layout: React.FC = ({ children }) => {
   return (
     <div>
       <Header />
-      <div>{children}</div>
+      <div className="m-auto max-w-screen-md bg-red-50">{children}</div>
       <Footer />
     </div>
   );
